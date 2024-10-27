@@ -20,6 +20,17 @@ require("lazy").setup({
     { "LazyVim/LazyVim", import = "lazyvim.plugins", opts = {
       colorscheme = "catppuccin",
     } },
+    { import = "lazyvim.plugins.extras.lang.clangd" },
+    { import = "lazyvim.plugins.extras.lang.git" },
+    { import = "lazyvim.plugins.extras.lang.python" },
+    { import = "lazyvim.plugins.extras.lang.markdown" },
+    { import = "lazyvim.plugins.extras.linting.eslint" },
+    --{ import = "lazyvim.plugins.extras.formating.prettier" },
+    --{ import = "lazyvim.plugins.extras.coding.mini-comment" },
+    -- { import = "lazyvim.plugins.extras.coding.yanky" },
+    --{import = "lazyvim.plugins.extras.coding."},
+    -- { import = "lazyvim.plugin.extras.util.mini-hipatterns" },
+
     -- import/override with your plugins
     { import = "plugins" },
   },
